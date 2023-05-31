@@ -5,4 +5,4 @@ summary: '[ELISE: A Reinforcement Learning Framework to Optimize the Sloftframe 
 date: 2023-05-31
 ---
 
-Information on this preprint can be found [here](/publication/elise-preprint).
+Information on this preprint can be found [here](/publication/elise).
