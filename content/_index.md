@@ -15,11 +15,8 @@ sections:
     id: news
     content:
       title: Recent News
-      # subtitle: "[All news>>](/news)"
-      # text: |-
-      #   {{% callout note %}}
-      #   Quickly discover relevant content by [filtering publications](./publication/).
-      #   {{% /callout %}}
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 3
       filters:
         folders:
           - news
