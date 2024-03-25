@@ -21,9 +21,13 @@ html {
     font-family: 'Public Sans', sans-serif;
 }
 
-h2 {
+h1 {
     font-weight: 900;
-    color: blueviolet;
+}
+
+h2 {
+    font-weight: 800;
+    /* color: blueviolet; */
 }
 
 /* adapt stylesheet for print
