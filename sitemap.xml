@@ -2,46 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://fdojurado.github.io/index.html</loc>
-    <lastmod>2024-03-29T05:14:42.817Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/news/2023-05-31-New preprint.html</loc>
-    <lastmod>2024-03-29T05:15:42.105Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/news/2024-01-18-New preprint.html</loc>
-    <lastmod>2024-03-29T05:15:42.105Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/news/2024-03-18-New paper accepted for publication.html</loc>
-    <lastmod>2024-03-29T05:15:42.105Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/news/2024-01-28-New preprint.html</loc>
-    <lastmod>2024-03-29T05:15:42.105Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/publications.html</loc>
-    <lastmod>2024-03-29T05:14:42.821Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/software.html</loc>
-    <lastmod>2024-03-29T05:14:42.821Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/news/2021-10-01-New academic position.html</loc>
-    <lastmod>2024-03-29T05:15:42.109Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/news/2021-10-08-New preprint.html</loc>
-    <lastmod>2024-03-29T05:15:42.109Z</lastmod>
+    <lastmod>2024-03-29T05:25:29.413Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/2022-02-01-New paper accepted for publication.html</loc>
-    <lastmod>2024-03-29T05:15:42.109Z</lastmod>
+    <lastmod>2024-03-29T05:26:25.128Z</lastmod>
   </url>
   <url>
-    <loc>https://fdojurado.github.io/about.html</loc>
-    <lastmod>2024-03-29T05:14:42.805Z</lastmod>
+    <loc>https://fdojurado.github.io/news/2021-10-08-New preprint.html</loc>
+    <lastmod>2024-03-29T05:26:25.128Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/news/2021-10-01-New academic position.html</loc>
+    <lastmod>2024-03-29T05:26:25.128Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/research/Preprint/HRL-TSCH: A Hierarchical Reinforcement Learning-based TSCH Scheduler for IIoT/index.html</loc>
+    <lastmod>2024-03-29T05:26:25.792Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/research/Journal-Article/Performance analysis of software-defined multihop wireless sensor networks/index.html</loc>
+    <lastmod>2024-03-29T05:26:27.724Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/research/Journal-Article/Energy-aware routing for software-defined multihop wireless sensor networks/index.html</loc>
+    <lastmod>2024-03-29T05:26:27.400Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/research/Journal-Article/A survey on machine learning software-defined wireless sensor networks (ML-SDWSNS): Current status and major challenges/index.html</loc>
+    <lastmod>2024-03-29T05:26:26.988Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/software.html</loc>
+    <lastmod>2024-03-29T05:25:29.417Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/research/Conference-Paper/A software-defined networking framework for IoT based on 6LoWPAN/index.html</loc>
+    <lastmod>2024-03-29T05:26:28.348Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/research/Journal-Article/ELISE: A Reinforcement Learning Framework to Optimize the Slotframe Size of the TSCH Protocol in IoT Networks/index.html</loc>
+    <lastmod>2024-03-29T05:26:26.512Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/research/Journal-Article/A software-defined management system for IP-enabled WSNs/index.html</loc>
+    <lastmod>2024-03-29T05:26:28.028Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/research/Preprint/A Centralized Reinforcement Learning Framework for Adaptive Clustering with Low Control Overhead in IoT Networks/index.html</loc>
+    <lastmod>2024-03-29T05:26:26.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/research/index.html</loc>
+    <lastmod>2024-03-29T05:26:29.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/news/2024-01-28-New preprint.html</loc>
+    <lastmod>2024-03-29T05:26:25.128Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/news/2024-03-18-New paper accepted for publication.html</loc>
+    <lastmod>2024-03-29T05:26:25.128Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/news/2024-01-18-New preprint.html</loc>
+    <lastmod>2024-03-29T05:26:25.128Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/news/2023-05-31-New preprint.html</loc>
+    <lastmod>2024-03-29T05:26:25.128Z</lastmod>
   </url>
 </urlset>
