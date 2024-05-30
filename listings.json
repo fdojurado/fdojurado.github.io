@@ -3,7 +3,7 @@
     "listing": "/research/index.html",
     "items": [
       "/research/Preprint/A-Centralized-Reinforcement-Learning-Framework-for-Adaptive-Clustering-with-Low-Control-Overhead-in-IoT-Networks/index.html",
-      "/research/Preprint/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html",
+      "/research/Journal-Article/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html",
       "/research/Journal-Article/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html",
       "/research/Journal-Article/A-survey-on-machine-learning-software-defined-wireless-sensor-networks-(ML-SDWSNS):-Current-status-and-major-challenges/index.html",
       "/research/Journal-Article/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/index.html",
@@ -15,6 +15,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/news/May 31, 2024-HRL-TSCH Paper Accepted in IEEE Transactions on Cognitive Communications and Networking Journal!/index.html",
       "/news/Mar 18, 2024-Breakthrough Announcement: ELISE Paper Accepted for Publication!/index.html",
       "/news/Jan 28, 2024-Unveiling a Centralized Reinforcement Learning Framework for Low Overhead Adaptive Clustering in IoT Networks/index.html",
       "/news/Jan 18, 2024-Introducing HRL-TSCH: Revolutionizing IIoT Scheduling with Hierarchical Reinforcement Learning for TSCH Networks/index.html",
