@@ -1,5 +1,14 @@
 [
   {
+    "listing": "/software/index.html",
+    "items": [
+      "/software/CVProcessor/index.html",
+      "/software/Contiki-NG-SDWSN/index.html",
+      "/software/ELISE/index.html",
+      "/software/PyNetSim/index.html"
+    ]
+  },
+  {
     "listing": "/research/index.html",
     "items": [
       "/research/Journal-Article/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html",
