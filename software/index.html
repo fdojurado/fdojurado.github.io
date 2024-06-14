@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-format','listing-project','listing-toc','listing-website','listing-_quarto-vars','listing-language','listing-author-info','listing-comments','listing-date-format','listing-execute','listing-include-after-body','listing-include-software-link','listing-page-layout','listing-title-block-banner','listing-title-block-style','listing-toc-location','listing-toc-title','listing-pub-info','listing-title','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-format','listing-project','listing-toc','listing-website','listing-_quarto-vars','listing-language','listing-author-info','listing-comments','listing-date-format','listing-execute','listing-include-after-body','listing-include-software-link','listing-page-layout','listing-show-metrics','listing-title-block-banner','listing-title-block-style','listing-toc-location','listing-toc-title','listing-pub-info','listing-title','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-format","listing-project","listing-toc","listing-website","listing-_quarto-vars","listing-language","listing-author-info","listing-comments","listing-date-format","listing-execute","listing-include-after-body","listing-include-software-link","listing-page-layout","listing-title-block-banner","listing-title-block-style","listing-toc-location","listing-toc-title","listing-pub-info","listing-title","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-format","listing-project","listing-toc","listing-website","listing-_quarto-vars","listing-language","listing-author-info","listing-comments","listing-date-format","listing-execute","listing-include-after-body","listing-include-software-link","listing-page-layout","listing-show-metrics","listing-title-block-banner","listing-title-block-style","listing-toc-location","listing-toc-title","listing-pub-info","listing-title","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -266,175 +266,187 @@ window.Quarto = {
                 <div class="project-list">
                     <ul>
                         
-                            <li class="project" data-index="0" data-listing-file-modified-sort="1718264313443" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-                                <div class="project-content">
-                                    <!-- check if pub-info.reference-title exist -->
-                                    
-                                        <p>
-                                            <b>CVProcessor</b>: CVProcessor is a Python library for processing CV (Curriculum Vitae). It provides a set of functions and utilities to extract information from CVs, such as personal details, education, work experience, skills, and more.
-                                        </p>
+                            <div class="project-item">
+                                <li class="project" data-index="0" data-listing-file-modified-sort="1718349993931" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+                                    <div class="project-content">
+                                        <!-- check if pub-info.reference-title exist -->
                                         
-                                </div>
-
-                                
-
-                                        
+                                            <p>
+                                                <b>CVProcessor</b>: CVProcessor is a Python library for processing CV (Curriculum Vitae). It provides a set of functions and utilities to extract information from CVs, such as personal details, education, work experience, skills, and more.
+                                            </p>
                                             
+                                    </div>
 
-                                                    <div class="project-details-listing">
-                                                        <ul class="project-links">
-                                                            <li class="project-link">
-                                                                <a class="btn btn-outline-dark btn-sm" href="../software/CVProcessor/index.html">
-                                                                    <i class="fa-solid fa-circle-info"></i> Full details »
-                                                                </a>
-                                                            </li>
-                                                            
+                                    
+
+                                            
+                                                
+
+                                                        <div class="project-details-listing">
+                                                            <ul class="project-links">
+                                                                <li class="project-link">
+                                                                    <a class="btn btn-outline-dark btn-sm" href="../software/CVProcessor/index.html">
+                                                                        <i class="fa-solid fa-circle-info"></i> Full details »
+                                                                    </a>
+                                                                </li>
                                                                 
-                                                                    <li class="project-link">
-                                                                        
-                                                                                    <a class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer" href="https://github.com/fdojurado/CVProcessor">
-                                                                                        
-                                                                                            <i class="fa-brands fa-github"></i>
-                                                                                            Code
-                                                                                    </a>
-                                                                    </li>
                                                                     
+                                                                        <li class="project-link">
+                                                                            
+                                                                                        <a class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer" href="https://github.com/fdojurado/CVProcessor">
+                                                                                            
+                                                                                                <i class="fa-brands fa-github"></i>
+                                                                                                Code
+                                                                                        </a>
+                                                                        </li>
                                                                         
-                                                        </ul>
-                                                    </div>
-                            </li>
+                                                                            
+                                                            </ul>
+                                                        </div>
+                                </li>
+                                
+                            </div>
                             
-                            <li class="project" data-index="1" data-listing-file-modified-sort="1718264313439" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-                                <div class="project-content">
-                                    <!-- check if pub-info.reference-title exist -->
-                                    
-                                        <p>
-                                            <b>Contiki-NG-SDWSN</b>: The OS for Next Generation SDN-IoT network.  Contiki-NG-SDWSN is an SDN-based solution for WSNs. It focuses in making the sensor network reprogrammable.
-                                        </p>
+                            <div class="project-item">
+                                <li class="project" data-index="1" data-listing-file-modified-sort="1718349993927" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+                                    <div class="project-content">
+                                        <!-- check if pub-info.reference-title exist -->
                                         
-                                </div>
-
-                                
-
-                                        
+                                            <p>
+                                                <b>Contiki-NG-SDWSN</b>: The OS for Next Generation SDN-IoT network.  Contiki-NG-SDWSN is an SDN-based solution for WSNs. It focuses in making the sensor network reprogrammable.
+                                            </p>
                                             
+                                    </div>
 
-                                                    <div class="project-details-listing">
-                                                        <ul class="project-links">
-                                                            <li class="project-link">
-                                                                <a class="btn btn-outline-dark btn-sm" href="../software/Contiki-NG-SDWSN/index.html">
-                                                                    <i class="fa-solid fa-circle-info"></i> Full details »
-                                                                </a>
-                                                            </li>
-                                                            
+                                    
+
+                                            
+                                                
+
+                                                        <div class="project-details-listing">
+                                                            <ul class="project-links">
+                                                                <li class="project-link">
+                                                                    <a class="btn btn-outline-dark btn-sm" href="../software/Contiki-NG-SDWSN/index.html">
+                                                                        <i class="fa-solid fa-circle-info"></i> Full details »
+                                                                    </a>
+                                                                </li>
                                                                 
-                                                                    <li class="project-link">
-                                                                        
-                                                                                    <a class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer" href="https://github.com/fdojurado/contiki-ng">
-                                                                                        
-                                                                                            <i class="fa-brands fa-github"></i>
-                                                                                            Code
-                                                                                    </a>
-                                                                    </li>
                                                                     
+                                                                        <li class="project-link">
+                                                                            
+                                                                                        <a class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer" href="https://github.com/fdojurado/contiki-ng">
+                                                                                            
+                                                                                                <i class="fa-brands fa-github"></i>
+                                                                                                Code
+                                                                                        </a>
+                                                                        </li>
                                                                         
-                                                        </ul>
-                                                    </div>
-                            </li>
+                                                                            
+                                                            </ul>
+                                                        </div>
+                                </li>
+                                
+                            </div>
                             
-                            <li class="project" data-index="2" data-listing-file-modified-sort="1718264313443" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-                                <div class="project-content">
-                                    <!-- check if pub-info.reference-title exist -->
-                                    
-                                        <p>
-                                            <b>ELISE</b>: The SDN-based solution for the next generation of IoT networks. ELISE is built upon multidisciplinary research efforts of Software-Defined Networking (SDN), Wireless Sensor Networks (WSNs), and Machine Learning (ML).
-                                        </p>
+                            <div class="project-item">
+                                <li class="project" data-index="2" data-listing-file-modified-sort="1718349993931" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+                                    <div class="project-content">
+                                        <!-- check if pub-info.reference-title exist -->
                                         
-                                </div>
-
-                                
-
-                                        
+                                            <p>
+                                                <b>ELISE</b>: The SDN-based solution for the next generation of IoT networks. ELISE is built upon multidisciplinary research efforts of Software-Defined Networking (SDN), Wireless Sensor Networks (WSNs), and Machine Learning (ML).
+                                            </p>
                                             
+                                    </div>
 
-                                                    <div class="project-details-listing">
-                                                        <ul class="project-links">
-                                                            <li class="project-link">
-                                                                <a class="btn btn-outline-dark btn-sm" href="../software/ELISE/index.html">
-                                                                    <i class="fa-solid fa-circle-info"></i> Full details »
-                                                                </a>
-                                                            </li>
-                                                            
+                                    
+
+                                            
+                                                
+
+                                                        <div class="project-details-listing">
+                                                            <ul class="project-links">
+                                                                <li class="project-link">
+                                                                    <a class="btn btn-outline-dark btn-sm" href="../software/ELISE/index.html">
+                                                                        <i class="fa-solid fa-circle-info"></i> Full details »
+                                                                    </a>
+                                                                </li>
                                                                 
-                                                                    <li class="project-link">
-                                                                        
-                                                                                    <a class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer" href="https://github.com/fdojurado/SDWSN-controller">
-                                                                                        
-                                                                                            <i class="fa-brands fa-github"></i>
-                                                                                            Code
-                                                                                    </a>
-                                                                    </li>
                                                                     
-                                                                    <li class="project-link">
+                                                                        <li class="project-link">
+                                                                            
+                                                                                        <a class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer" href="https://github.com/fdojurado/SDWSN-controller">
+                                                                                            
+                                                                                                <i class="fa-brands fa-github"></i>
+                                                                                                Code
+                                                                                        </a>
+                                                                        </li>
                                                                         
-                                                                                    <a class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=vY5LLg5ImTU">
-                                                                                        
-                                                                                            <i class="fa-solid fa-play"></i>
-                                                                                            Demo
-                                                                                    </a>
-                                                                    </li>
-                                                                    
-                                                                    <li class="project-link">
+                                                                        <li class="project-link">
+                                                                            
+                                                                                        <a class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=vY5LLg5ImTU">
+                                                                                            
+                                                                                                <i class="fa-solid fa-play"></i>
+                                                                                                Demo
+                                                                                        </a>
+                                                                        </li>
                                                                         
-                                                                                    <a class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer" href="http://sdwsn-controller.readthedocs.io/">
-                                                                                        
-                                                                                            <i class="fa-brands fa-readme"></i>
-                                                                                            Website
-                                                                                    </a>
-                                                                    </li>
-                                                                    
+                                                                        <li class="project-link">
+                                                                            
+                                                                                        <a class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer" href="http://sdwsn-controller.readthedocs.io/">
+                                                                                            
+                                                                                                <i class="fa-brands fa-readme"></i>
+                                                                                                Website
+                                                                                        </a>
+                                                                        </li>
                                                                         
-                                                        </ul>
-                                                    </div>
-                            </li>
+                                                                            
+                                                            </ul>
+                                                        </div>
+                                </li>
+                                
+                            </div>
                             
-                            <li class="project" data-index="3" data-listing-file-modified-sort="1718264313443" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-                                <div class="project-content">
-                                    <!-- check if pub-info.reference-title exist -->
-                                    
-                                        <p>
-                                            <b>PyNetSim</b>: PyNetSim stands out as a robust wireless sensor network simulator specifically crafted for the evaluation of LEACH-based protocols, including traditional LEACH and its variants like LEACH-C. Developed in Python, this tool provides a versatile and accessible platform for researchers and students to test, analyze, and refine their clustering algorithms in the context of wireless sensor networks.
-                                        </p>
+                            <div class="project-item">
+                                <li class="project" data-index="3" data-listing-file-modified-sort="1718349993931" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+                                    <div class="project-content">
+                                        <!-- check if pub-info.reference-title exist -->
                                         
-                                </div>
-
-                                
-
-                                        
+                                            <p>
+                                                <b>PyNetSim</b>: PyNetSim stands out as a robust wireless sensor network simulator specifically crafted for the evaluation of LEACH-based protocols, including traditional LEACH and its variants like LEACH-C. Developed in Python, this tool provides a versatile and accessible platform for researchers and students to test, analyze, and refine their clustering algorithms in the context of wireless sensor networks.
+                                            </p>
                                             
+                                    </div>
 
-                                                    <div class="project-details-listing">
-                                                        <ul class="project-links">
-                                                            <li class="project-link">
-                                                                <a class="btn btn-outline-dark btn-sm" href="../software/PyNetSim/index.html">
-                                                                    <i class="fa-solid fa-circle-info"></i> Full details »
-                                                                </a>
-                                                            </li>
-                                                            
+                                    
+
+                                            
+                                                
+
+                                                        <div class="project-details-listing">
+                                                            <ul class="project-links">
+                                                                <li class="project-link">
+                                                                    <a class="btn btn-outline-dark btn-sm" href="../software/PyNetSim/index.html">
+                                                                        <i class="fa-solid fa-circle-info"></i> Full details »
+                                                                    </a>
+                                                                </li>
                                                                 
-                                                                    <li class="project-link">
-                                                                        
-                                                                                    <a class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer" href="https://github.com/fdojurado/PyNetSim">
-                                                                                        
-                                                                                            <i class="fa-brands fa-github"></i>
-                                                                                            Code
-                                                                                    </a>
-                                                                    </li>
                                                                     
+                                                                        <li class="project-link">
+                                                                            
+                                                                                        <a class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer" href="https://github.com/fdojurado/PyNetSim">
+                                                                                            
+                                                                                                <i class="fa-brands fa-github"></i>
+                                                                                                Code
+                                                                                        </a>
+                                                                        </li>
                                                                         
-                                                        </ul>
-                                                    </div>
-                            </li>
+                                                                            
+                                                            </ul>
+                                                        </div>
+                                </li>
+                                
+                            </div>
                             
                     </ul>
                 </div>
