@@ -15,8 +15,8 @@
   {
     "listing": "/research/index.html",
     "items": [
-      "/research/Journal-Article/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html",
       "/research/Journal-Article/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html",
+      "/research/Journal-Article/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html",
       "/research/Journal-Article/A-survey-on-machine-learning-software-defined-wireless-sensor-networks-(ML-SDWSNS):-Current-status-and-major-challenges/index.html",
       "/research/Journal-Article/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/index.html",
       "/research/Journal-Article/A-software-defined-management-system-for-IP-enabled-WSNs/index.html",
