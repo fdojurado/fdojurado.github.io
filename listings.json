@@ -11,12 +11,12 @@
   {
     "listing": "/publications/index.html",
     "items": [
-      "/publications/Journal-Article/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html",
       "/publications/Journal-Article/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html",
+      "/publications/Journal-Article/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html",
       "/publications/Journal-Article/A-survey-on-machine-learning-software-defined-wireless-sensor-networks-(ML-SDWSNS):-Current-status-and-major-challenges/index.html",
       "/publications/Journal-Article/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/index.html",
-      "/publications/Journal-Article/A-software-defined-management-system-for-IP-enabled-WSNs/index.html",
       "/publications/Journal-Article/Performance-analysis-of-software-defined-multihop-wireless-sensor-networks/index.html",
+      "/publications/Journal-Article/A-software-defined-management-system-for-IP-enabled-WSNs/index.html",
       "/publications/Preprint/A-Centralized-Reinforcement-Learning-Framework-for-Adaptive-Clustering-with-Low-Control-Overhead-in-IoT-Networks/index.html",
       "/publications/Conference-Paper/A-software-defined-networking-framework-for-IoT-based-on-6LoWPAN/index.html"
     ]
