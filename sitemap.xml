@@ -2,94 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://fdojurado.github.io/software/PyNetSim/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.816Z</lastmod>
+    <lastmod>2025-03-18T10:43:09.100Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/software/ELISE/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.816Z</lastmod>
+    <lastmod>2025-03-18T10:43:09.099Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/software/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.824Z</lastmod>
+    <lastmod>2025-03-18T10:43:09.107Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/Oct 01, 2021-New Academic Position!/index.html</loc>
-    <lastmod>2025-03-17T01:43:39.582Z</lastmod>
+    <lastmod>2025-03-18T10:41:42.302Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/May 31, 2024-HRL-TSCH Paper Accepted in IEEE Transactions on Cognitive Communications and Networking Journal!/index.html</loc>
-    <lastmod>2025-03-17T01:43:39.589Z</lastmod>
+    <lastmod>2025-03-18T10:41:42.310Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/Jan 28, 2024-New preprint on Enhancing IoT Data Transmission with Optimized Clustering and Reinforcement Learning/index.html</loc>
-    <lastmod>2025-03-17T01:43:39.587Z</lastmod>
+    <lastmod>2025-03-18T10:41:42.308Z</lastmod>
   </url>
   <url>
-    <loc>https://fdojurado.github.io/news/Jan 18, 2024-Introducing HRL-TSCH: Revolutionizing IIoT Scheduling with Hierarchical Reinforcement Learning for TSCH Networks/index.html</loc>
-    <lastmod>2025-03-17T01:43:39.586Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/publications/Journal-Article/Performance-analysis-of-software-defined-multihop-wireless-sensor-networks/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.717Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/publications/Journal-Article/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.492Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/publications/Journal-Article/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.673Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/publications/Preprint/LEACH-RLC:-Enhancing-IoT-Data-Transmission-with-Optimized-Clustering-and-Reinforcement-Learning/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.582Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/publications/Conference-Paper/A-software-defined-networking-framework-for-IoT-based-on-6LoWPAN/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.804Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/publications/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.814Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/publications/Journal-Article/A-survey-on-machine-learning-software-defined-wireless-sensor-networks-(ML-SDWSNS):-Current-status-and-major-challenges/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.628Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/publications/Journal-Article/A-software-defined-management-system-for-IP-enabled-WSNs/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.761Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/publications/Journal-Article/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.538Z</lastmod>
+    <loc>https://fdojurado.github.io/news/Mar 18, 2025-Paper Accepted in IEEE Internet of Things Journal!/index.html</loc>
+    <lastmod>2025-03-18T10:41:42.311Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/index.html</loc>
-    <lastmod>2025-03-17T01:42:26.466Z</lastmod>
+    <lastmod>2025-03-18T10:40:35.304Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/publications/Journal-Article/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html</loc>
+    <lastmod>2025-03-18T10:43:08.827Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/publications/Journal-Article/A-software-defined-management-system-for-IP-enabled-WSNs/index.html</loc>
+    <lastmod>2025-03-18T10:43:09.046Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/publications/Journal-Article/LEACH-RLC:-Enhancing-IoT-Data-Transmission-with-Optimized-Clustering-and-Reinforcement-Learning/index.html</loc>
+    <lastmod>2025-03-18T10:43:08.872Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/publications/index.html</loc>
+    <lastmod>2025-03-18T10:43:09.097Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/publications/Conference-Paper/A-software-defined-networking-framework-for-IoT-based-on-6LoWPAN/index.html</loc>
+    <lastmod>2025-03-18T10:43:09.088Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/publications/Journal-Article/A-survey-on-machine-learning-software-defined-wireless-sensor-networks-(ML-SDWSNS):-Current-status-and-major-challenges/index.html</loc>
+    <lastmod>2025-03-18T10:43:08.916Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/publications/Journal-Article/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/index.html</loc>
+    <lastmod>2025-03-18T10:43:08.960Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/publications/Journal-Article/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html</loc>
+    <lastmod>2025-03-18T10:43:08.783Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/publications/Journal-Article/Performance-analysis-of-software-defined-multihop-wireless-sensor-networks/index.html</loc>
+    <lastmod>2025-03-18T10:43:09.002Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/news/Jan 18, 2024-Introducing HRL-TSCH: Revolutionizing IIoT Scheduling with Hierarchical Reinforcement Learning for TSCH Networks/index.html</loc>
+    <lastmod>2025-03-18T10:41:42.307Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/Feb 01, 2022-Paper Accepted in IEEE Access!/index.html</loc>
-    <lastmod>2025-03-17T01:43:39.584Z</lastmod>
+    <lastmod>2025-03-18T10:41:42.304Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/Oct 08, 2021-Latest Preprint in Advancements in ML-SDWSNS Research!/index.html</loc>
-    <lastmod>2025-03-17T01:43:39.583Z</lastmod>
+    <lastmod>2025-03-18T10:41:42.303Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/May 31, 2023-Introducing ELISE: A Reinforcement Learning Framework for TSCH Protocol Optimization in IoT Networks/index.html</loc>
-    <lastmod>2025-03-17T01:43:39.585Z</lastmod>
+    <lastmod>2025-03-18T10:41:42.306Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/Mar 18, 2024-ELISE Paper Accepted for Publication!/index.html</loc>
-    <lastmod>2025-03-17T01:43:39.588Z</lastmod>
+    <lastmod>2025-03-18T10:41:42.309Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/software/CVProcessor/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.817Z</lastmod>
+    <lastmod>2025-03-18T10:43:09.100Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/software/Contiki-NG-SDWSN/index.html</loc>
-    <lastmod>2025-03-17T01:52:00.815Z</lastmod>
+    <lastmod>2025-03-18T10:43:09.098Z</lastmod>
   </url>
 </urlset>

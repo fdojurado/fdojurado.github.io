@@ -83,41 +83,13 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-format','listing-project','listing-toc','listing-website','listing-_quarto-vars','listing-language','listing-appendix-style','listing-author-info','listing-date-format','listing-execute','listing-filters','listing-include-after-body','listing-include-back-link','listing-page-layout','listing-show-metrics','listing-title-block-banner','listing-title-block-style','listing-toc-location','listing-toc-title','listing-abstract','listing-authors','listing-bibtex','listing-categories','listing-copyright','listing-date','listing-doi','listing-google-scholar','listing-issue','listing-links','listing-page','listing-title','listing-type','listing-venue','listing-volume','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-license',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-format','listing-project','listing-toc','listing-website','listing-_quarto-vars','listing-language','listing-appendix-style','listing-author-info','listing-date-format','listing-execute','listing-filters','listing-include-after-body','listing-include-back-link','listing-page-layout','listing-show-metrics','listing-title-block-banner','listing-title-block-style','listing-toc-location','listing-toc-title','listing-abstract','listing-authors','listing-bibtex','listing-categories','listing-copyright','listing-date','listing-doi','listing-google-scholar','listing-issue','listing-links','listing-page','listing-title','listing-type','listing-venue','listing-volume','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-license','listing-in-press',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-format","listing-project","listing-toc","listing-website","listing-_quarto-vars","listing-language","listing-appendix-style","listing-author-info","listing-date-format","listing-execute","listing-filters","listing-include-after-body","listing-include-back-link","listing-page-layout","listing-show-metrics","listing-title-block-banner","listing-title-block-style","listing-toc-location","listing-toc-title","listing-abstract","listing-authors","listing-bibtex","listing-categories","listing-copyright","listing-date","listing-doi","listing-google-scholar","listing-issue","listing-links","listing-page","listing-title","listing-type","listing-venue","listing-volume","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-license"],
+      searchColumns: ["listing-format","listing-project","listing-toc","listing-website","listing-_quarto-vars","listing-language","listing-appendix-style","listing-author-info","listing-date-format","listing-execute","listing-filters","listing-include-after-body","listing-include-back-link","listing-page-layout","listing-show-metrics","listing-title-block-banner","listing-title-block-style","listing-toc-location","listing-toc-title","listing-abstract","listing-authors","listing-bibtex","listing-categories","listing-copyright","listing-date","listing-doi","listing-google-scholar","listing-issue","listing-links","listing-page","listing-title","listing-type","listing-venue","listing-volume","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-license","listing-in-press"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-Journal-Article'] = new List('listing-Journal-Article', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-Preprint .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-format','listing-project','listing-toc','listing-website','listing-_quarto-vars','listing-language','listing-appendix-style','listing-author-info','listing-date-format','listing-execute','listing-filters','listing-include-after-body','listing-include-back-link','listing-page-layout','listing-show-metrics','listing-title-block-banner','listing-title-block-style','listing-toc-location','listing-toc-title','listing-abstract','listing-authors','listing-bibtex','listing-categories','listing-date','listing-doi','listing-google-scholar','listing-issue','listing-links','listing-page','listing-title','listing-type','listing-venue','listing-volume','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-format","listing-project","listing-toc","listing-website","listing-_quarto-vars","listing-language","listing-appendix-style","listing-author-info","listing-date-format","listing-execute","listing-filters","listing-include-after-body","listing-include-back-link","listing-page-layout","listing-show-metrics","listing-title-block-banner","listing-title-block-style","listing-toc-location","listing-toc-title","listing-abstract","listing-authors","listing-bibtex","listing-categories","listing-date","listing-doi","listing-google-scholar","listing-issue","listing-links","listing-page","listing-title","listing-type","listing-venue","listing-volume","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-Preprint'] = new List('listing-Preprint', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -333,7 +305,7 @@ window.Quarto = {
         <h2 data-anchor-id="research-interests">Research interests</h2>
         <p>I am passionate about exploring the dynamic realm where Software-Defined Wireless Sensor Networks (SDWSNs) intersect with the power of Machine Learning (ML). This unique fusion of technologies serves as the focal point of my research endeavors. My goal is to address the burgeoning challenges posed by the ever-increasing number of Internet of Things (IoT) devices and applications. My research is dedicated to overcoming the technological barriers associated with resource management and reconfiguration complexities prevalent in current IoT applications. Delving into the intricacies of networked embedded systems, SDWSNs, ML, and IoT protocols and applications.</p>
         <p>Beyond this, my curiosity extends to the application of ML/AI for communications and networking. I am enthusiastic about harnessing the potential of these cutting-edge technologies to enhance the efficiency and intelligence of communication systems.</p>
-        <p>My research output consists of <b>8</b> publications in <b>6</b> different sources, including <b>6</b> Journal Article, <b>1</b> Preprint, <b>1</b> Conference Paper. I am first author in <b>8</b> of them. <i class="fa-solid fa-blank-just-to-add-ai-dependency-to-this-page" aria-label="blank-just-to-add-ai-dependency-to-this-page"></i></p>
+        <p>My research output consists of <b>8</b> publications in <b>6</b> different sources, including <b>7</b> Journal Article, <b>1</b> Conference Paper. I am first author in <b>8</b> of them. <i class="fa-solid fa-blank-just-to-add-ai-dependency-to-this-page" aria-label="blank-just-to-add-ai-dependency-to-this-page"></i></p>
         </section>
         </div>
         <div class="single-section">
@@ -544,6 +516,98 @@ window.Quarto = {
                             
                                 <div class="metrics">
                                     <a href="https://plu.mx/plum/a/?doi=10.1109/JSYST.2024.3371429" data-popup="right" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">
+                                        
+                                    </a>
+                                </div>
+                                
+                        </li>
+                        
+                        <li class="article-item">
+                            <div class="article-info">
+                                <ul class="list-dotted">
+                                    <li>
+                                        
+                                            Journal
+                                                
+                                    </li>
+                                    
+                                        <li>
+                                            In Press
+                                        </li>
+                                        
+                                </ul>
+                                <div class="article-title">
+                                    <a href="../publications/Journal-Article/LEACH-RLC:-Enhancing-IoT-Data-Transmission-with-Optimized-Clustering-and-Reinforcement-Learning/index.html" class="listing-name">
+                                        LEACH-RLC: Enhancing IoT Data Transmission with Optimized Clustering and Reinforcement Learning
+                                    </a>
+                                </div>
+                                <ul class="author-venue-date">
+                                    
+                                        <li>
+                                            
+                                                <div class="article-author">
+                                                    F. F. Jurado-Lasso
+                                                </div>
+                                                
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                    J. F. Jurado
+                                                        
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                    X. Fafoutis
+                                                        
+                                        </li>
+                                    
+                                </ul>
+                                <ul class="author-venue-date">
+                                    
+                                    <li>
+                                        <div class="article-venue">
+                                            IEEE Internet of Things Journal
+                                        </div>,
+                                        <span class="article-date">February 2024</span>
+                                    </li>
+                                    
+                                </ul>
+                                <ul class="list-dotted">
+                                    
+                                        <li>
+                                            
+                                                    <a href="https://doi.org/10.1109/JIOT.2025.3552126" class="article-link" target="_blank">
+                                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                                        DOI
+                                                    </a>
+                                                    
+                                        </li>
+                                        
+                                        <li>
+                                            
+                                                    <a href="https://arxiv.org/pdf/2401.15767v2" class="article-link" target="_blank">
+                                                        <i class="fa-solid fa-file-pdf"></i>
+                                                        PDF
+                                                    </a>
+                                                    
+                                        </li>
+                                        
+                                        <li>
+                                            
+                                                    <a href="https://github.com/fdojurado/PyNetSim" class="article-link" target="_blank">
+                                                        <i class="fa-brands fa-github"></i>
+                                                        Code
+                                                    </a>
+                                                    
+                                        </li>
+                                        
+                                </ul>
+                            </div>
+                            
+                                <div class="metrics">
+                                    <a href="https://plu.mx/plum/a/?doi=10.1109/JIOT.2025.3552126" data-popup="right" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">
                                         
                                     </a>
                                 </div>
@@ -894,111 +958,6 @@ window.Quarto = {
         </section>
         </div>
         <div class="single-section">
-        <section id="preprint" class="level2 section-container no-max-height">
-        <h2 data-anchor-id="preprint">Preprint</h2>
-        <div id="listing-Preprint" class="quarto-listing quarto-listing-container-custom">
-        <div class="article-container">
-            <div class="article-list">
-                <ul class="article-items">
-                    
-                        <li class="article-item">
-                            <div class="article-info">
-                                <ul class="list-dotted">
-                                    <li>
-                                        
-                                            Preprint
-                                                
-                                    </li>
-                                    
-                                </ul>
-                                <div class="article-title">
-                                    <a href="../publications/Preprint/LEACH-RLC:-Enhancing-IoT-Data-Transmission-with-Optimized-Clustering-and-Reinforcement-Learning/index.html" class="listing-name">
-                                        LEACH-RLC: Enhancing IoT Data Transmission with Optimized Clustering and Reinforcement Learning
-                                    </a>
-                                </div>
-                                <ul class="author-venue-date">
-                                    
-                                        <li>
-                                            
-                                                <div class="article-author">
-                                                    F. F. Jurado-Lasso
-                                                </div>
-                                                
-                                        </li>
-                                    
-                                        <li>
-                                            
-                                                    J. F. Jurado
-                                                        
-                                        </li>
-                                    
-                                        <li>
-                                            
-                                                    X. Fafoutis
-                                                        
-                                        </li>
-                                    
-                                </ul>
-                                <ul class="author-venue-date">
-                                    
-                                    <li>
-                                        <div class="article-venue">
-                                            arXiv
-                                        </div>,
-                                        <span class="article-date">February 2024</span>
-                                    </li>
-                                    
-                                </ul>
-                                <ul class="list-dotted">
-                                    
-                                        <li>
-                                            
-                                                    <a href="https://doi.org/10.48550/arXiv.2401.15767" class="article-link" target="_blank">
-                                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                                        DOI
-                                                    </a>
-                                                    
-                                        </li>
-                                        
-                                        <li>
-                                            
-                                                    <a href="https://arxiv.org/pdf/2401.15767" class="article-link" target="_blank">
-                                                        <i class="fa-solid fa-file-pdf"></i>
-                                                        PDF
-                                                    </a>
-                                                    
-                                        </li>
-                                        
-                                        <li>
-                                            
-                                                    <a href="https://github.com/fdojurado/PyNetSim" class="article-link" target="_blank">
-                                                        <i class="fa-brands fa-github"></i>
-                                                        Code
-                                                    </a>
-                                                    
-                                        </li>
-                                        
-                                </ul>
-                            </div>
-                            
-                                <div class="metrics">
-                                    <a href="https://plu.mx/plum/a/?doi=10.48550/arXiv.2401.15767" data-popup="right" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">
-                                        
-                                    </a>
-                                </div>
-                                
-                        </li>
-                        
-                </ul>
-            </div>
-        </div>
-        <div class="listing-no-matching d-none">
-        No matching items
-        </div>
-        </div>
-        </section>
-        </div>
-        <div class="single-section">
         <section id="conference-paper" class="level2 section-container no-max-height">
         <h2 data-anchor-id="conference-paper">Conference Paper</h2>
         <div id="listing-Conference-Paper" class="quarto-listing quarto-listing-container-custom">
@@ -1048,7 +1007,7 @@ window.Quarto = {
                                     
                                     <li>
                                         <div class="article-venue">
-                                            2018 Wireless Telecommunications Symposium (WTS)
+                                            Proceeding of Wireless Telecommunications Symposium (WTS)
                                         </div>,
                                         <span class="article-date">May 2018</span>
                                     </li>
@@ -1106,7 +1065,6 @@ window.Quarto = {
         <ul>
         <li><a href="#research-interests" id="toc-research-interests">Research interests</a></li>
         <li><a href="#journal-article" id="toc-journal-article">Journal Article</a></li>
-        <li><a href="#preprint" id="toc-preprint">Preprint</a></li>
         <li><a href="#conference-paper" id="toc-conference-paper">Conference Paper</a></li>
         </ul>
     </div>
@@ -1118,7 +1076,6 @@ window.Quarto = {
   <ul>
   <li><a href="#research-interests" id="toc-research-interests">Research interests</a></li>
   <li><a href="#journal-article" id="toc-journal-article">Journal Article</a></li>
-  <li><a href="#preprint" id="toc-preprint">Preprint</a></li>
   <li><a href="#conference-paper" id="toc-conference-paper">Conference Paper</a></li>
   </ul>
 </nav> -->
