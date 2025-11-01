@@ -1,38 +1,29 @@
 [
   {
-    "listing": "/software/index.html",
+    "listing": "/publications/index.html",
     "items": [
-      "/software/CVProcessor/index.html",
-      "/software/Contiki-NG-SDWSN/index.html",
-      "/software/ELISE/index.html",
-      "/software/PyNetSim/index.html"
+      "/publications/conference/A-software-defined-networking-framework-for-IoT-based-on-6LoWPAN/index.html",
+      "/publications/journal/LEACH-RLC:-Enhancing-IoT-Data-Transmission-with-Optimized-Clustering-and-Reinforcement-Learning/index.html",
+      "/publications/journal/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html",
+      "/publications/journal/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html",
+      "/publications/journal/A-survey-on-machine-learning-software-defined-wireless-sensor-networks-(ML-SDWSNS):-Current-status-and-major-challenges/index.html",
+      "/publications/journal/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/index.html",
+      "/publications/journal/Performance-analysis-of-software-defined-multihop-wireless-sensor-networks/index.html",
+      "/publications/journal/A-software-defined-management-system-for-IP-enabled-WSNs/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/news/Mar 18, 2025-Paper Accepted in IEEE Internet of Things Journal!/index.html",
-      "/news/May 31, 2024-HRL-TSCH Paper Accepted in IEEE Transactions on Cognitive Communications and Networking Journal!/index.html",
-      "/news/Mar 18, 2024-ELISE Paper Accepted for Publication!/index.html",
-      "/news/Jan 28, 2024-New preprint on Enhancing IoT Data Transmission with Optimized Clustering and Reinforcement Learning/index.html",
-      "/news/Jan 18, 2024-Introducing HRL-TSCH: Revolutionizing IIoT Scheduling with Hierarchical Reinforcement Learning for TSCH Networks/index.html",
-      "/news/May 31, 2023-Introducing ELISE: A Reinforcement Learning Framework for TSCH Protocol Optimization in IoT Networks/index.html",
-      "/news/Feb 01, 2022-Paper Accepted in IEEE Access!/index.html",
-      "/news/Oct 08, 2021-Latest Preprint in Advancements in ML-SDWSNS Research!/index.html",
-      "/news/Oct 01, 2021-New Academic Position!/index.html"
-    ]
-  },
-  {
-    "listing": "/publications/index.html",
-    "items": [
-      "/publications/Journal-Article/LEACH-RLC:-Enhancing-IoT-Data-Transmission-with-Optimized-Clustering-and-Reinforcement-Learning/index.html",
-      "/publications/Journal-Article/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html",
-      "/publications/Journal-Article/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html",
-      "/publications/Journal-Article/A-survey-on-machine-learning-software-defined-wireless-sensor-networks-(ML-SDWSNS):-Current-status-and-major-challenges/index.html",
-      "/publications/Journal-Article/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/index.html",
-      "/publications/Journal-Article/Performance-analysis-of-software-defined-multihop-wireless-sensor-networks/index.html",
-      "/publications/Journal-Article/A-software-defined-management-system-for-IP-enabled-WSNs/index.html",
-      "/publications/Conference-Paper/A-software-defined-networking-framework-for-IoT-based-on-6LoWPAN/index.html"
+      "/news/2025-03-18-Paper Accepted in IEEE Internet of Things Journal!/index.html",
+      "/news/2024-05-31-HRL-TSCH Paper Accepted in IEEE Transactions on Cognitive Communications and Networking Journal!/index.html",
+      "/news/2024-03-18-ELISE Paper Accepted for Publication!/index.html",
+      "/news/2024-01-28-New preprint on Enhancing IoT Data Transmission with Optimized Clustering and Reinforcement Learning/index.html",
+      "/news/2024-01-18-Introducing HRL-TSCH: Revolutionizing IIoT Scheduling with Hierarchical Reinforcement Learning for TSCH Networks/index.html",
+      "/news/2023-05-31-Introducing ELISE: A Reinforcement Learning Framework for TSCH Protocol Optimization in IoT Networks/index.html",
+      "/news/2022-02-01-Paper Accepted in IEEE Access!/index.html",
+      "/news/2021-10-08-Latest Preprint in Advancements in ML-SDWSNS Research!/index.html",
+      "/news/2021-10-01-New Academic Position!/index.html"
     ]
   }
 ]

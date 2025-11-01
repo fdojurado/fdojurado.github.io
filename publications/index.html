@@ -44,8 +44,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,20 +76,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-Journal-Article .list');
+    const listingTargetEl = window.document.querySelector('#listing-conference .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-format','listing-project','listing-toc','listing-website','listing-_quarto-vars','listing-language','listing-appendix-style','listing-author-info','listing-date-format','listing-execute','listing-filters','listing-include-after-body','listing-include-back-link','listing-page-layout','listing-show-metrics','listing-title-block-banner','listing-title-block-style','listing-toc-location','listing-toc-title','listing-abstract','listing-authors','listing-bibtex','listing-categories','listing-copyright','listing-date','listing-doi','listing-google-scholar','listing-issue','listing-links','listing-page','listing-title','listing-type','listing-venue','listing-volume','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-license','listing-in-press',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-format','listing-project','listing-toc','listing-website','listing-_quarto-vars','listing-language','listing-appendix-style','listing-author-info','listing-date-format','listing-execute','listing-filters','listing-include-after-body','listing-include-back-link','listing-page-layout','listing-show-metrics','listing-title-block-banner','listing-title-block-style','listing-toc-location','listing-toc-title','listing-abstract','listing-authors','listing-bibtex','listing-categories','listing-copyright','listing-date','listing-doi','listing-google-scholar','listing-links','listing-title','listing-type','listing-venue','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-format","listing-project","listing-toc","listing-website","listing-_quarto-vars","listing-language","listing-appendix-style","listing-author-info","listing-date-format","listing-execute","listing-filters","listing-include-after-body","listing-include-back-link","listing-page-layout","listing-show-metrics","listing-title-block-banner","listing-title-block-style","listing-toc-location","listing-toc-title","listing-abstract","listing-authors","listing-bibtex","listing-categories","listing-copyright","listing-date","listing-doi","listing-google-scholar","listing-issue","listing-links","listing-page","listing-title","listing-type","listing-venue","listing-volume","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-license","listing-in-press"],
+      searchColumns: ["listing-format","listing-project","listing-toc","listing-website","listing-_quarto-vars","listing-language","listing-appendix-style","listing-author-info","listing-date-format","listing-execute","listing-filters","listing-include-after-body","listing-include-back-link","listing-page-layout","listing-show-metrics","listing-title-block-banner","listing-title-block-style","listing-toc-location","listing-toc-title","listing-abstract","listing-authors","listing-bibtex","listing-categories","listing-copyright","listing-date","listing-doi","listing-google-scholar","listing-links","listing-title","listing-type","listing-venue","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-Journal-Article'] = new List('listing-Journal-Article', options);
+    window['quarto-listings']['listing-conference'] = new List('listing-conference', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -104,20 +104,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-Conference-Paper .list');
+    const listingTargetEl = window.document.querySelector('#listing-journal .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-format','listing-project','listing-toc','listing-website','listing-_quarto-vars','listing-language','listing-appendix-style','listing-author-info','listing-date-format','listing-execute','listing-filters','listing-include-after-body','listing-include-back-link','listing-page-layout','listing-show-metrics','listing-title-block-banner','listing-title-block-style','listing-toc-location','listing-toc-title','listing-abstract','listing-authors','listing-bibtex','listing-categories','listing-copyright','listing-date','listing-doi','listing-google-scholar','listing-issue','listing-links','listing-page','listing-title','listing-type','listing-venue','listing-volume','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-format','listing-project','listing-toc','listing-website','listing-_quarto-vars','listing-language','listing-appendix-style','listing-author-info','listing-date-format','listing-execute','listing-filters','listing-include-after-body','listing-include-back-link','listing-page-layout','listing-show-metrics','listing-title-block-banner','listing-title-block-style','listing-toc-location','listing-toc-title','listing-abstract','listing-authors','listing-bibtex','listing-categories','listing-copyright','listing-date','listing-doi','listing-google-scholar','listing-issue','listing-links','listing-page','listing-title','listing-type','listing-venue','listing-volume','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-license',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-format","listing-project","listing-toc","listing-website","listing-_quarto-vars","listing-language","listing-appendix-style","listing-author-info","listing-date-format","listing-execute","listing-filters","listing-include-after-body","listing-include-back-link","listing-page-layout","listing-show-metrics","listing-title-block-banner","listing-title-block-style","listing-toc-location","listing-toc-title","listing-abstract","listing-authors","listing-bibtex","listing-categories","listing-copyright","listing-date","listing-doi","listing-google-scholar","listing-issue","listing-links","listing-page","listing-title","listing-type","listing-venue","listing-volume","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-format","listing-project","listing-toc","listing-website","listing-_quarto-vars","listing-language","listing-appendix-style","listing-author-info","listing-date-format","listing-execute","listing-filters","listing-include-after-body","listing-include-back-link","listing-page-layout","listing-show-metrics","listing-title-block-banner","listing-title-block-style","listing-toc-location","listing-toc-title","listing-abstract","listing-authors","listing-bibtex","listing-categories","listing-copyright","listing-date","listing-doi","listing-google-scholar","listing-issue","listing-links","listing-page","listing-title","listing-type","listing-venue","listing-volume","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-license"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-Conference-Paper'] = new List('listing-Conference-Paper', options);
+    window['quarto-listings']['listing-journal'] = new List('listing-journal', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -217,10 +217,6 @@ window.Quarto = {
     <a class="nav-link active" href="../publications/index.html" aria-current="page"> 
 <span class="menu-text">Publications</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../software/index.html"> 
-<span class="menu-text">Software</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/fdojurado"> <i class="bi bi-github" role="img">
 </i> 
@@ -258,7 +254,7 @@ window.Quarto = {
             F. Fernando Jurado-Lasso
         </div>
                         <div class="quarto-subtitle">
-            Engineer specializing in IoT, Networked Embedded Systems, and Machine Learning for communications and networking
+            Postdoctoral Researcher
         </div>
                         <div class="about-links">
                         <a href="mailto:fdo.jurado@gmail.com" class="about-link" rel="" target="">
@@ -273,19 +269,7 @@ window.Quarto = {
                     Google Scholar
                 </span>
             </a>
-                        <a href="https://github.com/fdojurado" class="about-link" rel="" target="">
-                                <i class="fa-brands fa-github"></i>
-                                <span class="about-link-text">
-                    GitHub
-                </span>
-            </a>
-                        <a href="https://www.linkedin.com/in/fdojurado" class="about-link" rel="" target="">
-                                <i class="bi-linkedin"></i>
-                                <span class="about-link-text">
-                    LinkedIn
-                </span>
-            </a>
-                        <a href="https://orcid.org/0000-0002-5005-781X" class="about-link" rel="" target="">
+                        <a href="https://orcid.org/0000-0002-8723-4565" class="about-link" rel="" target="">
                                 <i class="ai ai-orcid"></i>
                                 <span class="about-link-text">
                     ORCID
@@ -297,21 +281,113 @@ window.Quarto = {
                     ResearchGate
                 </span>
             </a>
+                        <a href="https://github.com/fdojurado" class="about-link" rel="" target="">
+                                <i class="fa-brands fa-github"></i>
+                                <span class="about-link-text">
+                    GitHub
+                </span>
+            </a>
                     </div>
             </div>
     <div class="about-page">
         <div class="single-section no-margin">
         <section id="research-interests" class="level2 section-container">
         <h2 data-anchor-id="research-interests">Research interests</h2>
-        <p>I am passionate about exploring the dynamic realm where Software-Defined Wireless Sensor Networks (SDWSNs) intersect with the power of Machine Learning (ML). This unique fusion of technologies serves as the focal point of my research endeavors. My goal is to address the burgeoning challenges posed by the ever-increasing number of Internet of Things (IoT) devices and applications. My research is dedicated to overcoming the technological barriers associated with resource management and reconfiguration complexities prevalent in current IoT applications. Delving into the intricacies of networked embedded systems, SDWSNs, ML, and IoT protocols and applications.</p>
-        <p>Beyond this, my curiosity extends to the application of ML/AI for communications and networking. I am enthusiastic about harnessing the potential of these cutting-edge technologies to enhance the efficiency and intelligence of communication systems.</p>
-        <p>My research output consists of <b>8</b> publications in <b>6</b> different sources, including <b>7</b> Journal Article, <b>1</b> Conference Paper. I am first author in <b>8</b> of them. <i class="fa-solid fa-blank-just-to-add-ai-dependency-to-this-page" aria-label="blank-just-to-add-ai-dependency-to-this-page"></i></p>
+        <p>Research focused on the intersection of embedded systems and machine learning, particularly reinforcement learning for IoT applications and cyber-physical systems.</p>
+        <p>My research output consists of <b>8</b> publications in <b>6</b> different sources, including <b>1</b> conference, <b>7</b> journal. I am first author in <b>8</b> of them. <i class="fa-solid fa-blank-just-to-add-ai-dependency-to-this-page" aria-label="blank-just-to-add-ai-dependency-to-this-page"></i></p>
         </section>
         </div>
         <div class="single-section">
-        <section id="journal-article" class="level2 section-container no-max-height">
-        <h2 data-anchor-id="journal-article">Journal Article</h2>
-        <div id="listing-Journal-Article" class="quarto-listing quarto-listing-container-custom">
+        <section id="conference-paper" class="level2 section-container no-max-height">
+        <h2 data-anchor-id="conference-paper">Conference Paper</h2>
+        <div id="listing-conference" class="quarto-listing quarto-listing-container-custom">
+        <div class="article-container">
+            <div class="article-list">
+                <ul class="article-items">
+                    
+                        <li class="article-item">
+                            <div class="article-info">
+                                <ul class="list-dotted">
+                                    <li>
+                                        
+                                            Conference
+                                                
+                                    </li>
+                                    
+                                </ul>
+                                <div class="article-title">
+                                    <a href="../publications/conference/A-software-defined-networking-framework-for-IoT-based-on-6LoWPAN/index.html" class="listing-name">
+                                        A software-defined networking framework for IoT based on 6LoWPAN
+                                    </a>
+                                </div>
+                                <ul class="author-venue-date">
+                                    
+                                        <li>
+                                            
+                                                <div class="article-author">
+                                                    F. Fernando Jurado-Lasso
+                                                </div>
+                                                
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                    K. Clarke
+                                                        
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                    A. Nirmalathas
+                                                        
+                                        </li>
+                                    
+                                </ul>
+                                <ul class="author-venue-date">
+                                    
+                                    <li>
+                                        <div class="article-venue">
+                                            Proceeding of Wireless Telecommunications Symposium (WTS)
+                                        </div>,
+                                        <span class="article-date">May 2018</span>
+                                    </li>
+                                    
+                                </ul>
+                                <ul class="list-dotted">
+                                    
+                                        <li>
+                                            
+                                                    <a href="https://doi.org/10.1109/WTS.2018.8363938" class="article-link" target="_blank">
+                                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                                        DOI
+                                                    </a>
+                                                    
+                                        </li>
+                                        
+                                </ul>
+                            </div>
+                            
+                                <div class="metrics">
+                                    <a href="https://plu.mx/plum/a/?doi=10.1109/WTS.2018.8363938" data-popup="right" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">
+                                        
+                                    </a>
+                                </div>
+                                
+                        </li>
+                        
+                </ul>
+            </div>
+        </div>
+        <div class="listing-no-matching d-none">
+        No matching items
+        </div>
+        </div>
+        </section>
+        </div>
+        <div class="single-section">
+        <section id="journal-articles" class="level2 section-container no-max-height">
+        <h2 data-anchor-id="journal-articles">Journal Articles</h2>
+        <div id="listing-journal" class="quarto-listing quarto-listing-container-custom">
         <div class="article-container">
             <div class="article-list">
                 <ul class="article-items">
@@ -325,13 +401,9 @@ window.Quarto = {
                                                 
                                     </li>
                                     
-                                        <li>
-                                            In Press
-                                        </li>
-                                        
                                 </ul>
                                 <div class="article-title">
-                                    <a href="../publications/Journal-Article/LEACH-RLC:-Enhancing-IoT-Data-Transmission-with-Optimized-Clustering-and-Reinforcement-Learning/index.html" class="listing-name">
+                                    <a href="../publications/journal/LEACH-RLC:-Enhancing-IoT-Data-Transmission-with-Optimized-Clustering-and-Reinforcement-Learning/index.html" class="listing-name">
                                         LEACH-RLC: Enhancing IoT Data Transmission with Optimized Clustering and Reinforcement Learning
                                     </a>
                                 </div>
@@ -340,7 +412,7 @@ window.Quarto = {
                                         <li>
                                             
                                                 <div class="article-author">
-                                                    F. F. Jurado-Lasso
+                                                    F. Fernando Jurado-Lasso
                                                 </div>
                                                 
                                         </li>
@@ -379,24 +451,6 @@ window.Quarto = {
                                                     
                                         </li>
                                         
-                                        <li>
-                                            
-                                                    <a href="https://arxiv.org/pdf/2401.15767v2" class="article-link" target="_blank">
-                                                        <i class="fa-solid fa-file-pdf"></i>
-                                                        PDF
-                                                    </a>
-                                                    
-                                        </li>
-                                        
-                                        <li>
-                                            
-                                                    <a href="https://github.com/fdojurado/PyNetSim" class="article-link" target="_blank">
-                                                        <i class="fa-brands fa-github"></i>
-                                                        Code
-                                                    </a>
-                                                    
-                                        </li>
-                                        
                                 </ul>
                             </div>
                             
@@ -419,7 +473,7 @@ window.Quarto = {
                                     
                                 </ul>
                                 <div class="article-title">
-                                    <a href="../publications/Journal-Article/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html" class="listing-name">
+                                    <a href="../publications/journal/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html" class="listing-name">
                                         HRL-TSCH: A Hierarchical Reinforcement Learning-based TSCH Scheduler for IIoT
                                     </a>
                                 </div>
@@ -428,7 +482,7 @@ window.Quarto = {
                                         <li>
                                             
                                                 <div class="article-author">
-                                                    F. F. Jurado-Lasso
+                                                    F. Fernando Jurado-Lasso
                                                 </div>
                                                 
                                         </li>
@@ -473,15 +527,6 @@ window.Quarto = {
                                                     
                                         </li>
                                         
-                                        <li>
-                                            
-                                                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10546985" class="article-link" target="_blank">
-                                                        <i class="fa-solid fa-file-pdf"></i>
-                                                        PDF
-                                                    </a>
-                                                    
-                                        </li>
-                                        
                                 </ul>
                             </div>
                             
@@ -504,7 +549,7 @@ window.Quarto = {
                                     
                                 </ul>
                                 <div class="article-title">
-                                    <a href="../publications/Journal-Article/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html" class="listing-name">
+                                    <a href="../publications/journal/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html" class="listing-name">
                                         ELISE: A Reinforcement Learning Framework to Optimize the Slotframe Size of the TSCH Protocol in IoT Networks
                                     </a>
                                 </div>
@@ -513,7 +558,7 @@ window.Quarto = {
                                         <li>
                                             
                                                 <div class="article-author">
-                                                    F. F. Jurado-Lasso
+                                                    F. Fernando Jurado-Lasso
                                                 </div>
                                                 
                                         </li>
@@ -558,51 +603,6 @@ window.Quarto = {
                                                     
                                         </li>
                                         
-                                        <li>
-                                            
-                                                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10473707" class="article-link" target="_blank">
-                                                        <i class="fa-solid fa-file-pdf"></i>
-                                                        PDF
-                                                    </a>
-                                                    
-                                        </li>
-                                        
-                                        <li>
-                                            
-                                                    <a href="https://github.com/fdojurado/SDWSN-controller" class="article-link" target="_blank">
-                                                        <i class="fa-brands fa-github"></i>
-                                                        Code
-                                                    </a>
-                                                    
-                                        </li>
-                                        
-                                        <li>
-                                            
-                                                    <a href="https://fdojurado.github.io/SDWSN-controller/elise/" class="article-link" target="_blank">
-                                                        <i class="fa-brands fa-slideshare"></i>
-                                                        Slides
-                                                    </a>
-                                                    
-                                        </li>
-                                        
-                                        <li>
-                                            
-                                                    <a href="http://sdwsn-controller.readthedocs.io/" class="article-link" target="_blank">
-                                                        <i class="fa-brands fa-readme"></i>
-                                                        Docs
-                                                    </a>
-                                                    
-                                        </li>
-                                        
-                                        <li>
-                                            
-                                                    <a href="https://www.youtube.com/watch?v=vY5LLg5ImTU" class="article-link" target="_blank">
-                                                        <i class="fa-solid fa-play"></i>
-                                                        Demo
-                                                    </a>
-                                                    
-                                        </li>
-                                        
                                 </ul>
                             </div>
                             
@@ -625,7 +625,7 @@ window.Quarto = {
                                     
                                 </ul>
                                 <div class="article-title">
-                                    <a href="../publications/Journal-Article/A-survey-on-machine-learning-software-defined-wireless-sensor-networks-(ML-SDWSNS):-Current-status-and-major-challenges/index.html" class="listing-name">
+                                    <a href="../publications/journal/A-survey-on-machine-learning-software-defined-wireless-sensor-networks-(ML-SDWSNS):-Current-status-and-major-challenges/index.html" class="listing-name">
                                         A survey on machine learning software-defined wireless sensor networks (ML-SDWSNS): Current status and major challenges
                                     </a>
                                 </div>
@@ -634,7 +634,7 @@ window.Quarto = {
                                         <li>
                                             
                                                 <div class="article-author">
-                                                    F. F. Jurado-Lasso
+                                                    F. Fernando Jurado-Lasso
                                                 </div>
                                                 
                                         </li>
@@ -685,15 +685,6 @@ window.Quarto = {
                                                     
                                         </li>
                                         
-                                        <li>
-                                            
-                                                    <a href="https://ieeexplore.ieee.org/iel7/6287639/6514899/09718334.pdf" class="article-link" target="_blank">
-                                                        <i class="fa-solid fa-file-pdf"></i>
-                                                        PDF
-                                                    </a>
-                                                    
-                                        </li>
-                                        
                                 </ul>
                             </div>
                             
@@ -716,7 +707,7 @@ window.Quarto = {
                                     
                                 </ul>
                                 <div class="article-title">
-                                    <a href="../publications/Journal-Article/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/index.html" class="listing-name">
+                                    <a href="../publications/journal/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/index.html" class="listing-name">
                                         Energy-aware routing for software-defined multihop wireless sensor networks
                                     </a>
                                 </div>
@@ -725,7 +716,7 @@ window.Quarto = {
                                         <li>
                                             
                                                 <div class="article-author">
-                                                    F. F. Jurado-Lasso
+                                                    F. Fernando Jurado-Lasso
                                                 </div>
                                                 
                                         </li>
@@ -733,12 +724,6 @@ window.Quarto = {
                                         <li>
                                             
                                                     K. Clarke
-                                                        
-                                        </li>
-                                    
-                                        <li>
-                                            
-                                                    A. N. Cadavid
                                                         
                                         </li>
                                     
@@ -770,15 +755,6 @@ window.Quarto = {
                                                     
                                         </li>
                                         
-                                        <li>
-                                            
-                                                <a href="../publications/Journal-Article/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/energy-aware.pdf" class="article-link" target="_blank">
-                                                    <i class="fa-solid fa-file-pdf"></i>
-                                                    PDF
-                                                </a>
-                                                
-                                        </li>
-                                        
                                 </ul>
                             </div>
                             
@@ -801,7 +777,7 @@ window.Quarto = {
                                     
                                 </ul>
                                 <div class="article-title">
-                                    <a href="../publications/Journal-Article/Performance-analysis-of-software-defined-multihop-wireless-sensor-networks/index.html" class="listing-name">
+                                    <a href="../publications/journal/Performance-analysis-of-software-defined-multihop-wireless-sensor-networks/index.html" class="listing-name">
                                         Performance analysis of software-defined multihop wireless sensor networks
                                     </a>
                                 </div>
@@ -810,7 +786,7 @@ window.Quarto = {
                                         <li>
                                             
                                                 <div class="article-author">
-                                                    F. F. Jurado-Lasso
+                                                    F. Fernando Jurado-Lasso
                                                 </div>
                                                 
                                         </li>
@@ -849,15 +825,6 @@ window.Quarto = {
                                                     
                                         </li>
                                         
-                                        <li>
-                                            
-                                                <a href="../publications/Journal-Article/Performance-analysis-of-software-defined-multihop-wireless-sensor-networks/performance-analysis.pdf" class="article-link" target="_blank">
-                                                    <i class="fa-solid fa-file-pdf"></i>
-                                                    PDF
-                                                </a>
-                                                
-                                        </li>
-                                        
                                 </ul>
                             </div>
                             
@@ -880,7 +847,7 @@ window.Quarto = {
                                     
                                 </ul>
                                 <div class="article-title">
-                                    <a href="../publications/Journal-Article/A-software-defined-management-system-for-IP-enabled-WSNs/index.html" class="listing-name">
+                                    <a href="../publications/journal/A-software-defined-management-system-for-IP-enabled-WSNs/index.html" class="listing-name">
                                         A software-defined management system for IP-enabled WSNs
                                     </a>
                                 </div>
@@ -889,7 +856,7 @@ window.Quarto = {
                                         <li>
                                             
                                                 <div class="article-author">
-                                                    F. F. Jurado-Lasso
+                                                    F. Fernando Jurado-Lasso
                                                 </div>
                                                 
                                         </li>
@@ -928,116 +895,11 @@ window.Quarto = {
                                                     
                                         </li>
                                         
-                                        <li>
-                                            
-                                                <a href="../publications/Journal-Article/A-software-defined-management-system-for-IP-enabled-WSNs/sdn-ip-enabled.pdf" class="article-link" target="_blank">
-                                                    <i class="fa-solid fa-file-pdf"></i>
-                                                    PDF
-                                                </a>
-                                                
-                                        </li>
-                                        
                                 </ul>
                             </div>
                             
                                 <div class="metrics">
                                     <a href="https://plu.mx/plum/a/?doi=10.1109/JSYST.2019.2946781" data-popup="right" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">
-                                        
-                                    </a>
-                                </div>
-                                
-                        </li>
-                        
-                </ul>
-            </div>
-        </div>
-        <div class="listing-no-matching d-none">
-        No matching items
-        </div>
-        </div>
-        </section>
-        </div>
-        <div class="single-section">
-        <section id="conference-paper" class="level2 section-container no-max-height">
-        <h2 data-anchor-id="conference-paper">Conference Paper</h2>
-        <div id="listing-Conference-Paper" class="quarto-listing quarto-listing-container-custom">
-        <div class="article-container">
-            <div class="article-list">
-                <ul class="article-items">
-                    
-                        <li class="article-item">
-                            <div class="article-info">
-                                <ul class="list-dotted">
-                                    <li>
-                                        
-                                            Conference
-                                                
-                                    </li>
-                                    
-                                </ul>
-                                <div class="article-title">
-                                    <a href="../publications/Conference-Paper/A-software-defined-networking-framework-for-IoT-based-on-6LoWPAN/index.html" class="listing-name">
-                                        A software-defined networking framework for IoT based on 6LoWPAN
-                                    </a>
-                                </div>
-                                <ul class="author-venue-date">
-                                    
-                                        <li>
-                                            
-                                                <div class="article-author">
-                                                    F. F. Jurado-Lasso
-                                                </div>
-                                                
-                                        </li>
-                                    
-                                        <li>
-                                            
-                                                    K. Clarke
-                                                        
-                                        </li>
-                                    
-                                        <li>
-                                            
-                                                    A. Nirmalathas
-                                                        
-                                        </li>
-                                    
-                                </ul>
-                                <ul class="author-venue-date">
-                                    
-                                    <li>
-                                        <div class="article-venue">
-                                            2018 Wireless Telecommunications Symposium (WTS)
-                                        </div>,
-                                        <span class="article-date">May 2018</span>
-                                    </li>
-                                    
-                                </ul>
-                                <ul class="list-dotted">
-                                    
-                                        <li>
-                                            
-                                                    <a href="https://doi.org/10.1109/WTS.2018.8363938" class="article-link" target="_blank">
-                                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                                        DOI
-                                                    </a>
-                                                    
-                                        </li>
-                                        
-                                        <li>
-                                            
-                                                <a href="../publications/Conference-Paper/A-software-defined-networking-framework-for-IoT-based-on-6LoWPAN/SD-WSN6Lo.pdf" class="article-link" target="_blank">
-                                                    <i class="fa-solid fa-file-pdf"></i>
-                                                    PDF
-                                                </a>
-                                                
-                                        </li>
-                                        
-                                </ul>
-                            </div>
-                            
-                                <div class="metrics">
-                                    <a href="https://plu.mx/plum/a/?doi=10.1109/WTS.2018.8363938" data-popup="right" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">
                                         
                                     </a>
                                 </div>
@@ -1064,8 +926,8 @@ window.Quarto = {
         </div>
         <ul>
         <li><a href="#research-interests" id="toc-research-interests">Research interests</a></li>
-        <li><a href="#journal-article" id="toc-journal-article">Journal Article</a></li>
         <li><a href="#conference-paper" id="toc-conference-paper">Conference Paper</a></li>
+        <li><a href="#journal-articles" id="toc-journal-articles">Journal Articles</a></li>
         </ul>
     </div>
     </div>
@@ -1075,8 +937,8 @@ window.Quarto = {
    
   <ul>
   <li><a href="#research-interests" id="toc-research-interests">Research interests</a></li>
-  <li><a href="#journal-article" id="toc-journal-article">Journal Article</a></li>
   <li><a href="#conference-paper" id="toc-conference-paper">Conference Paper</a></li>
+  <li><a href="#journal-articles" id="toc-journal-articles">Journal Articles</a></li>
   </ul>
 </nav> -->
 
@@ -1470,7 +1332,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         <p><span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2018-2025 F. Fernando Jurado-Lasso. Except where otherwise noted, all text and images licensed under <a href="https://creativecommons.org/licenses/by/4.0/"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> Creative Commons CC BY 4.0</a></span></p>
         </div>   
     <div class="nav-footer-center">
-        <p><span class="faux-block"><i class="fa-brands fa-orcid" aria-label="orcid"></i> <strong>ORCID</strong> <a href="https://orcid.org/0000-0002-5005-781X">0000-0002-5005-781X</a></span> <span class="faux-block"><i class="fa-solid fa-key" aria-label="key"></i> <a href="../pgp_ath.asc.txt">PGP public key</a>   <i class="fa-solid fa-fingerprint" aria-label="fingerprint"></i> Fingerprint:<br><span class="fingerprint">FC00&nbsp;72B7&nbsp;B1ED&nbsp;B725&nbsp;95A5&nbsp;&nbsp;35E2&nbsp;C7FF&nbsp;3CFD&nbsp;3347&nbsp;1693</span></span></p>
+        <p><span class="faux-block"><i class="fa-brands fa-orcid" aria-label="orcid"></i> <strong>ORCID</strong> <a href="https://orcid.org/0000-0002-8723-4565">0000-0002-8723-4565</a></span> <span class="faux-block"><i class="fa-solid fa-key" aria-label="key"></i> <a href="pgp_ath.asc.txt">PGP public key</a>   <i class="fa-solid fa-fingerprint" aria-label="fingerprint"></i> Fingerprint:<br><span class="fingerprint">FC00 72B7 B1ED B725 95A5 35E2 C7FF 3CFD 3347 1693</span></span></p>
         <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
         <p><span class="faux-block">Made with <a href="https://quarto.org/">Quarto</a></span></p>
