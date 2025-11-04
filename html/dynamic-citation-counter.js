@@ -1,40 +1,31 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const citationCounter = document.getElementById("citations");
-  const hindexCounter = document.getElementById("hindex");
-  const i10indexCounter = document.getElementById("i10index");
-  const mostCitedCounter = document.getElementById("most-cited");
-  let count = 0;
-  let hcount = 0;
-  let i10count = 0;
-  let mcount = 0;
-  // end is the current number of citations (id="citations")
-  const end = parseInt(citationCounter.innerText, 10);
-  const hend = parseInt(hindexCounter.innerText, 10);
-  const i10end = parseInt(i10indexCounter.innerText, 10);
-  const mend = parseInt(mostCitedCounter.innerText, 10);
-  citationCounter.innerText = "0";
-  hindexCounter.innerText = "0";
-  i10indexCounter.innerText = "0";
-  mostCitedCounter.innerText = "0";
+  // Define total animation time (in milliseconds)
+  const duration = 2000;
 
-  const counter = setInterval(() => {
-    count++;
-    citationCounter.innerText = count;
-    if (count >= end) clearInterval(counter);
-  }, 20);
-  const hcounter = setInterval(() => {
-    hcount++;
-    hindexCounter.innerText = hcount;
-    if (hcount >= hend) clearInterval(hcounter);
-  }, 300);
-  const i10counter = setInterval(() => {
-    i10count++;
-    i10indexCounter.innerText = i10count;
-    if (i10count >= i10end) clearInterval(i10counter);
-  }, 300);
-  const mcounter = setInterval(() => {
-    mcount++;
-    mostCitedCounter.innerText = mcount;
-    if (mcount >= mend) clearInterval(mcounter);
-  }, 20);
+  // Collect all counters (id and target value)
+  const counters = [
+    { el: document.getElementById("citations"), value:  parseInt(document.getElementById("citations").innerText, 10) },
+    { el: document.getElementById("hindex"), value: parseInt(document.getElementById("hindex").innerText, 10) },
+    { el: document.getElementById("i10index"), value: parseInt(document.getElementById("i10index").innerText, 10) },
+    { el: document.getElementById("most-cited"), value: parseInt(document.getElementById("most-cited").innerText, 10) },
+  ];
+
+  // Reset counters to 0
+  counters.forEach(c => (c.el.innerText = "0"));
+
+  // For each counter, compute how fast it should increment
+  counters.forEach(({ el, value }) => {
+    if (value === 0) return; // skip zeros
+
+    const steps = value;
+    const interval = duration / steps; // ensures all finish at same time
+    let count = 0;
+
+    const timer = setInterval(() => {
+      count++;
+      el.innerText = count;
+
+      if (count >= value) clearInterval(timer);
+    }, interval);
+  });
 });
