@@ -1,31 +1,48 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Define total animation time (in milliseconds)
-  const duration = 2000;
+  const duration = 2000; // total animation time in ms
 
-  // Collect all counters (id and target value)
+  // === COUNTER ANIMATION ===
   const counters = [
-    { el: document.getElementById("citations"), value:  parseInt(document.getElementById("citations").innerText, 10) },
+    { el: document.getElementById("citations"), value: parseInt(document.getElementById("citations").innerText, 10) },
     { el: document.getElementById("hindex"), value: parseInt(document.getElementById("hindex").innerText, 10) },
     { el: document.getElementById("i10index"), value: parseInt(document.getElementById("i10index").innerText, 10) },
     { el: document.getElementById("most-cited"), value: parseInt(document.getElementById("most-cited").innerText, 10) },
   ];
 
-  // Reset counters to 0
+  // Reset counters
   counters.forEach(c => (c.el.innerText = "0"));
 
-  // For each counter, compute how fast it should increment
-  counters.forEach(({ el, value }) => {
-    if (value === 0) return; // skip zeros
+  // Animate with requestAnimationFrame for smoothness
+  const startTime = performance.now();
+  function animate(time) {
+    const progress = Math.min((time - startTime) / duration, 1);
+    counters.forEach(({ el, value }) => {
+      el.innerText = Math.floor(value * progress).toLocaleString();
+    });
+    if (progress < 1) requestAnimationFrame(animate);
+  }
+  requestAnimationFrame(animate);
 
-    const steps = value;
-    const interval = duration / steps; // ensures all finish at same time
-    let count = 0;
+  // === SVG LINE ANIMATION ===
+  const svg = document.querySelector(".citations-growth polyline");
+  if (svg) {
+    const totalLength = svg.getTotalLength();
 
-    const timer = setInterval(() => {
-      count++;
-      el.innerText = count;
+    // Start hidden
+    svg.style.strokeDasharray = totalLength;
+    svg.style.strokeDashoffset = totalLength;
 
-      if (count >= value) clearInterval(timer);
-    }, interval);
-  });
+    // Animate line draw
+    svg.animate(
+      [
+        { strokeDashoffset: totalLength },
+        { strokeDashoffset: 0 }
+      ],
+      {
+        duration: duration,
+        easing: "ease-out",
+        fill: "forwards"
+      }
+    );
+  }
 });
