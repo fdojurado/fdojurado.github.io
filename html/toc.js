@@ -1,30 +1,29 @@
-$(document).ready(function () {
-  var defaultItem = $(".toc a").first();
-  //   disable all active classes
-  $(".toc a").each(function () {
-    $(this).removeClass("active");
-  });
-  defaultItem.addClass("active");
-  var lastActive = null;
-  $(window).scroll(function () {
-    var scrollPos = $(document).scrollTop() + $(window).height() / 2;
-    $(".toc a").each(function () {
-      var currLink = $(this);
-      var refId = currLink.attr("href").split("#")[1];
-      var refElement = $("#" + refId);
-      if (
-        refElement.position().top <= scrollPos &&
-        refElement.position().top + refElement.height() > scrollPos
-      ) {
-        if (lastActive) {
-          lastActive.removeClass("active");
-        }
-        currLink.addClass("active");
-        lastActive = currLink;
-        if (!currLink.is(defaultItem)) {
-          defaultItem.removeClass("active");
-        }
+document.addEventListener("DOMContentLoaded", function () {
+  const tocLinks = document.querySelectorAll(".toc a");
+  if (tocLinks.length === 0) return;
+
+  let lastActive = null;
+
+  const onScroll = () => {
+    const midpoint = window.scrollY + window.innerHeight / 2;
+
+    tocLinks.forEach(link => {
+      const id = link.getAttribute("href").split("#")[1];
+      const section = document.getElementById(id);
+      if (!section) return;
+
+      const rect = section.getBoundingClientRect();
+      const top = rect.top + window.scrollY;
+      const bottom = top + rect.height;
+
+      if (top <= midpoint && bottom > midpoint) {
+        if (lastActive) lastActive.classList.remove("active");
+        link.classList.add("active");
+        lastActive = link;
       }
     });
-  });
+  };
+
+  window.addEventListener("scroll", onScroll);
+  onScroll();
 });
