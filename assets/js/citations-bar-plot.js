@@ -1,4 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // create tooltip div (once)
+  let tooltip = document.querySelector("#citation-tooltip");
+  if (!tooltip) {
+    tooltip = document.createElement("div");
+    tooltip.id = "citation-tooltip";
+    tooltip.style.position = "absolute";
+    tooltip.style.padding = "2px 6px";
+    tooltip.style.background = "rgba(0,0,0,0.75)";
+    tooltip.style.color = "white";
+    tooltip.style.fontSize = "10px";
+    tooltip.style.borderRadius = "3px";
+    tooltip.style.pointerEvents = "none";
+    tooltip.style.transition = "opacity 0.1s";
+    tooltip.style.opacity = 0;
+    document.body.appendChild(tooltip);
+  }
   document.querySelectorAll(".scholar-citations-chart").forEach(chart => {
 
     const rawData = chart.dataset.citationsRaw
@@ -27,8 +43,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const chartHeight = height - marginTop - marginBottom
 
     const maxBarWidth = 26
-    const barWidth = Math.min(maxBarWidth, Math.max(14, 180 / years.length))
-    const chartWidth = barWidth * years.length
+    const minBarWidth = 14
+
+    // Instead of shrinking to 180px, use a fixed bar width and let chartWidth expand
+    const barWidth = Math.min(maxBarWidth, Math.max(minBarWidth, 26)) // 26px per bar
+    const chartWidth = barWidth * years.length + 2 // add small padding
 
     svg.setAttribute("viewBox", `0 0 ${chartWidth} ${height}`)
     svg.setAttribute("width", chartWidth)
@@ -57,15 +76,24 @@ document.addEventListener("DOMContentLoaded", () => {
       rect.setAttribute("width", barWidth * 0.6)
       rect.setAttribute("height", barHeight)
       rect.setAttribute("rx", 2)
+      rect.setAttribute("fill", "#5a6c7d")
+      rect.style.cursor = "pointer"
       svg.appendChild(rect)
 
-      const valueLabel = document.createElementNS("http://www.w3.org/2000/svg", "text")
-      valueLabel.setAttribute("x", x + barWidth * 0.3)
-      valueLabel.setAttribute("y", y - 2)
-      valueLabel.setAttribute("text-anchor", "middle")
-      valueLabel.setAttribute("class", "scholar-citations-value")
-      valueLabel.textContent = value
-      svg.appendChild(valueLabel)
+      // ---- hover events ----
+      rect.addEventListener("mouseenter", e => {
+        tooltip.textContent = value
+        tooltip.style.opacity = 1
+        tooltip.style.left = e.pageX + 5 + "px"
+        tooltip.style.top = e.pageY - 20 + "px"
+      })
+      rect.addEventListener("mousemove", e => {
+        tooltip.style.left = e.pageX + 5 + "px"
+        tooltip.style.top = e.pageY - 20 + "px"
+      })
+      rect.addEventListener("mouseleave", () => {
+        tooltip.style.opacity = 0
+      })
     })
 
     // ---- trend line ----
