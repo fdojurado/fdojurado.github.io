@@ -110,8 +110,9 @@ document.addEventListener("DOMContentLoaded", () => {
       )
 
       valueLabel.setAttribute("x", x + barWidth * 0.3)
-      valueLabel.setAttribute("y", y - 3)
+      valueLabel.setAttribute("y", y - 4)
       valueLabel.setAttribute("text-anchor", "middle")
+      valueLabel.setAttribute("class", "scholar-citations-value")
 
       valueLabel.textContent = value
 
