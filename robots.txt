@@ -1,1 +1,1 @@
-Sitemap: {{< var social.homepage >}}/sitemap.xml
+Sitemap: {{< var url_homepage >}}/sitemap.xml
