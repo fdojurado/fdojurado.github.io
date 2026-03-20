@@ -2,90 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>{{< var url_homepage >}}/news/2024-01-28 00:00:00-New preprint on Enhancing IoT Data Transmission with Optimized Clustering and Reinforcement Learning/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.872Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.316Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/news/2024-03-18 00:00:00-ELISE Paper Accepted for Publication!/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.873Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.317Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/news/2022-02-01 00:00:00-Paper Accepted in IEEE Access!/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.867Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.312Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/news/2025-03-18 00:00:00-Paper Accepted in IEEE Internet of Things Journal!/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.876Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.320Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/news/2025-12-03 00:00:00-Our paper on 'Adaptive Mobility Control in LoRaWAN via Reinforcement Learning' has been published in WiMob 2025!/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.877Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.321Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/collaborate/index.html</loc>
-    <lastmod>2026-03-20T00:11:00.237Z</lastmod>
+    <lastmod>2026-03-20T00:31:09.825Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/publications/Performance-analysis-of-software-defined-multihop-wireless-sensor-networks/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.919Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.362Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/publications/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.912Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.356Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/publications/Adaptive-Mobility-Control-in-LoRaWAN-via-Reinforcement-Learning/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.937Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.380Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/publications/A-software-defined-networking-framework-for-IoT-based-on-6LoWPAN/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.930Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.374Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/publications/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.941Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.385Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.864Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.309Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/publications/LEACH-RLC:-Enhancing-IoT-Data-Transmission-with-Optimized-Clustering-and-Reinforcement-Learning/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.884Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.328Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/publications/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.898Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.341Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/publications/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.891Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.335Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/publications/A-survey-on-machine-learning-software-defined-wireless-sensor-networks-(ML-SDWSNS):-Current-status-and-major-challenges/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.906Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.349Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/publications/A-software-defined-management-system-for-IP-enabled-WSNs/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.925Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.368Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/news/2024-01-18 00:00:00-Introducing HRL-TSCH: Revolutionizing IIoT Scheduling with Hierarchical Reinforcement Learning for TSCH Networks/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.871Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.315Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/news/2023-05-31 00:00:00-Introducing ELISE: A Reinforcement Learning Framework for TSCH Protocol Optimization in IoT Networks/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.869Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.313Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/news/2021-10-08 00:00:00-Latest Preprint in Advancements in ML-SDWSNS Research!/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.866Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.311Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/news/2021-10-01 00:00:00-New Academic Position!/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.865Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.309Z</lastmod>
   </url>
   <url>
     <loc>{{< var url_homepage >}}/news/2024-05-31 00:00:00-HRL-TSCH Paper Accepted in IEEE Transactions on Cognitive Communications and Networking Journal!/index.html</loc>
-    <lastmod>2026-03-20T00:12:29.875Z</lastmod>
+    <lastmod>2026-03-20T00:32:21.319Z</lastmod>
   </url>
 </urlset>
