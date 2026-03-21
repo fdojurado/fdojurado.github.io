@@ -1,1 +1,1 @@
-Sitemap: {{< var url_homepage >}}/sitemap.xml
+Sitemap: https://fdojurado.github.io/sitemap.xml
