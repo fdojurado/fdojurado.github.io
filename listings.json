@@ -1,21 +1,8 @@
 [
   {
-    "listing": "/publications/index.html",
-    "items": [
-      "/publications/Adaptive-Mobility-Control-in-LoRaWAN-via-Reinforcement-Learning/index.html",
-      "/publications/LEACH-RLC:-Enhancing-IoT-Data-Transmission-with-Optimized-Clustering-and-Reinforcement-Learning/index.html",
-      "/publications/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html",
-      "/publications/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html",
-      "/publications/A-survey-on-machine-learning-software-defined-wireless-sensor-networks-(ML-SDWSNS):-Current-status-and-major-challenges/index.html",
-      "/publications/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/index.html",
-      "/publications/Performance-analysis-of-software-defined-multihop-wireless-sensor-networks/index.html",
-      "/publications/A-software-defined-management-system-for-IP-enabled-WSNs/index.html",
-      "/publications/A-software-defined-networking-framework-for-IoT-based-on-6LoWPAN/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/news/2026-04-09 00:00:00-introducing-rl-asl-a-reinforcement-learning-framework-for-adaptive-listening-in-tsch-networks/index.html",
       "/news/2025-12-03 00:00:00-our-paper-on-adaptive-mobility-control-in-lorawan-via-reinforcement-learning-has-been-published-in-wimob-2025/index.html",
       "/news/2025-03-18 00:00:00-paper-accepted-in-ieee-internet-of-things-journal/index.html",
       "/news/2024-05-31 00:00:00-hrl-tsch-paper-accepted-in-ieee-transactions-on-cognitive-communications-and-networking-journal/index.html",
@@ -26,6 +13,21 @@
       "/news/2022-02-01 00:00:00-paper-accepted-in-ieee-access/index.html",
       "/news/2021-10-08 00:00:00-latest-preprint-in-advancements-in-ml-sdwsns-research/index.html",
       "/news/2021-10-01 00:00:00-new-academic-position/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/RL-ASL:-A-Dynamic-Listening-Optimization-for-TSCH-Networks-Using-Reinforcement-Learning/index.html",
+      "/publications/Adaptive-Mobility-Control-in-LoRaWAN-via-Reinforcement-Learning/index.html",
+      "/publications/LEACH-RLC:-Enhancing-IoT-Data-Transmission-with-Optimized-Clustering-and-Reinforcement-Learning/index.html",
+      "/publications/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html",
+      "/publications/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html",
+      "/publications/A-survey-on-machine-learning-software-defined-wireless-sensor-networks-(ML-SDWSNS):-Current-status-and-major-challenges/index.html",
+      "/publications/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/index.html",
+      "/publications/Performance-analysis-of-software-defined-multihop-wireless-sensor-networks/index.html",
+      "/publications/A-software-defined-management-system-for-IP-enabled-WSNs/index.html",
+      "/publications/A-software-defined-networking-framework-for-IoT-based-on-6LoWPAN/index.html"
     ]
   }
 ]
