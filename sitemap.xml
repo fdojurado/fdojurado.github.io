@@ -2,98 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://fdojurado.github.io/publications/A-software-defined-management-system-for-IP-enabled-WSNs/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.761Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.445Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/publications/RL-ASL:-A-Dynamic-Listening-Optimization-for-TSCH-Networks-Using-Reinforcement-Learning/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.670Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.358Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/publications/ELISE:-A-Reinforcement-Learning-Framework-to-Optimize-the-Slotframe-Size-of-the-TSCH-Protocol-in-IoT-Networks/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.697Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.384Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/publications/A-software-defined-networking-framework-for-IoT-based-on-6LoWPAN/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.771Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.455Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/publications/Adaptive-Mobility-Control-in-LoRaWAN-via-Reinforcement-Learning/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.782Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.465Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/publications/Performance-analysis-of-software-defined-multihop-wireless-sensor-networks/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.748Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.432Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.646Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.333Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/2023-05-31 00:00:00-introducing-elise-a-reinforcement-learning-framework-for-tsch-protocol-optimization-in-iot-networks/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.650Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.337Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/2024-01-28 00:00:00-new-preprint-on-enhancing-iot-data-transmission-with-optimized-clustering-and-reinforcement-learning/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.653Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.340Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/2026-04-09 00:00:00-introducing-rl-asl-a-reinforcement-learning-framework-for-adaptive-listening-in-tsch-networks/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.659Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.346Z</lastmod>
   </url>
   <url>
-    <loc>https://fdojurado.github.io/news/2021-10-08 00:00:00-latest-preprint-in-advancements-in-ml-sdwsns-research/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.648Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/news/2025-12-03 00:00:00-our-paper-on-adaptive-mobility-control-in-lorawan-via-reinforcement-learning-has-been-published-in-wimob-2025/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.658Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fdojurado.github.io/news/2025-03-18 00:00:00-paper-accepted-in-ieee-internet-of-things-journal/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.656Z</lastmod>
+    <loc>https://fdojurado.github.io/news/2026-04-28 00:00:00-rl-asl-paper-accepted-in-ieee-transactions-on-mobile-computing/index.html</loc>
+    <lastmod>2026-04-29T14:15:07.347Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/2024-05-31 00:00:00-hrl-tsch-paper-accepted-in-ieee-transactions-on-cognitive-communications-and-networking-journal/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.655Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.342Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/news/2025-03-18 00:00:00-paper-accepted-in-ieee-internet-of-things-journal/index.html</loc>
+    <lastmod>2026-04-29T14:15:07.343Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/news/2025-12-03 00:00:00-our-paper-on-adaptive-mobility-control-in-lorawan-via-reinforcement-learning-has-been-published-in-wimob-2025/index.html</loc>
+    <lastmod>2026-04-29T14:15:07.344Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdojurado.github.io/news/2021-10-08 00:00:00-latest-preprint-in-advancements-in-ml-sdwsns-research/index.html</loc>
+    <lastmod>2026-04-29T14:15:07.335Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/2022-02-01 00:00:00-paper-accepted-in-ieee-access/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.649Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.336Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/2021-10-01 00:00:00-new-academic-position/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.647Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.334Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/2024-01-18 00:00:00-introducing-hrl-tsch-revolutionizing-iiot-scheduling-with-hierarchical-reinforcement-learning-for-tsch-networks/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.651Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.338Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/news/2024-03-18 00:00:00-elise-paper-accepted-for-publication/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.654Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.341Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/collaborate/index.html</loc>
-    <lastmod>2026-04-29T05:52:20.399Z</lastmod>
+    <lastmod>2026-04-29T14:13:58.993Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/publications/A-survey-on-machine-learning-software-defined-wireless-sensor-networks-(ML-SDWSNS):-Current-status-and-major-challenges/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.723Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.409Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/publications/LEACH-RLC:-Enhancing-IoT-Data-Transmission-with-Optimized-Clustering-and-Reinforcement-Learning/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.684Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.371Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/publications/Energy-aware-routing-for-software-defined-multihop-wireless-sensor-networks/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.735Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.420Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/publications/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.786Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.469Z</lastmod>
   </url>
   <url>
     <loc>https://fdojurado.github.io/publications/HRL-TSCH:-A-Hierarchical-Reinforcement-Learning-based-TSCH-Scheduler-for-IIoT/index.html</loc>
-    <lastmod>2026-04-29T05:53:42.709Z</lastmod>
+    <lastmod>2026-04-29T14:15:07.395Z</lastmod>
   </url>
 </urlset>
